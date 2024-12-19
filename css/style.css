@@ -1,0 +1,201 @@
+* {
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+header, main, footer {
+    width:1040px;
+    margin:0 auto;
+}
+#wrapper{
+    min-height: 100%;
+    height:auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+#yakorya ul {
+    list-style: none;
+    margin: 30px;
+    padding-left: 250px;
+    padding-top: 37px;
+    font-size: 22px;
+}
+#yakorya li{
+    display: inline;
+    padding-left: 50px;
+}
+#yakorya a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.amatic-sc-regular {
+    font-family: "Lepka", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amatic-sc-bold {
+    font-family: "Lepka", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
+  
+a{
+    color: white;
+}
+#mainnav a:hover{
+    text-decoration: underline;
+}
+#mainnav li.active a{
+    font-weight: bold;
+}
+
+header{
+    height:120px;
+}
+main{
+    padding-bottom: 100px;
+}
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+body{
+    background-color: #58585c;
+    color: rgb(220, 201, 201);
+}
+.main_img-float{
+    width:550px;
+    margin-right: 40px;
+    float:left;
+}
+#panorama{
+    width:100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+}
+.services_img{
+    width:240px;
+}
+.services_item{
+    width: 240px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float:left;
+}
+.services{
+    
+    padding: 35px;
+}
+.h1-invisible{
+    visibility:hidden;
+}
+.clearfix::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+.about{
+padding-left:180px;
+padding-top:50px;
+width:500px;
+}
+.about_img{
+    width: 500px; 
+
+}
+.about_text{
+    width:500px;
+    float:left;
+}
+.about_h1{
+    text-align: center;
+    
+}
+.Contacti{
+    text-align: center;
+    line-height: 30px;
+    padding-top: 100px;
+}
+.clients_text{
+    width: 890px;
+    padding-left: 75px;
+}
+.h1-clients{
+    text-align: center;
+}
+.drake{
+    height: 252px;
+}
+.oleg{
+    height: 252px;
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    font-weight:bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.price th:first-child{
+    width: 10%;
+}
+
+.price th::nth-child(2), .price th:last-child {
+    width: 25%;
+}
+
+td{
+    border-top: 2px solid white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #4900a3;
+}
+
+th {
+    border-top: 5px solid #f60ad5;
+    border-bottom: 5px solid #f60ad5;
+    border-collapse: collapse;
+}
+
+.pink{
+    color:pink;
+}
+.footer_block, .footer_icons{
+display: inline-block;
+width: 100%;
+
+}
+.footer_icons{
+    text-align: right; 
+
+}
+.footer_img{
+    width:50px;
+    padding-left: 10px;
+}
+.footer_block{
+    text-transform: uppercase;
+}
+
